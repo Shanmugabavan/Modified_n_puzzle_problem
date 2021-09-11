@@ -227,9 +227,9 @@ def A():
 
 
 # write to output file
-# fo = open(output_file_name, "w")
+fo = open(output_file_name, "w")
 PATH = A()
 if args.path:
     print(PATH)
-# fo.write(", ".join(PATH))
-# fo.close()
+fo.write(", ".join(PATH))
+fo.close()
