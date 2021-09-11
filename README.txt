@@ -4,7 +4,7 @@ Settingup Environment
 
 Play with sample data and Ouput
     1.python main.py
-        -output is number of steps will be print by default
+        -output is number of expanded nodes will be print by default
         -when passing cmd arguments can generate multiple outputs...... Can easily understand by comment in the code
         -if you want to print path
             python main.py --path
